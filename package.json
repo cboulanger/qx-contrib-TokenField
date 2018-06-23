@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/cboulanger/qx-contrib-TokenField#readme",
   "dependencies": {
-    "qxcompiler": "^0.2.10"
+    "qxcompiler": "^0.2.13"
   }
 }
