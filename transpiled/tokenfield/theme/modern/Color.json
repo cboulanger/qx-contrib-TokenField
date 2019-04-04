@@ -1,0 +1,31 @@
+{
+  "className": "tokenfield.theme.modern.Color",
+  "packageName": "tokenfield.theme.modern",
+  "name": "Color",
+  "superClass": "qx.theme.modern.Color",
+  "interfaces": [],
+  "mixins": [],
+  "functionName": null,
+  "clazz": {
+    "location": {
+      "start": {
+        "line": 10,
+        "column": 0
+      },
+      "end": {
+        "line": 16,
+        "column": 3
+      }
+    },
+    "jsdoc": {
+      "@description": [
+        {
+          "name": "@description",
+          "body": "***********************************************************************\n\nCopyright:\n\nLicense:\n\nAuthors:\n\n***********************************************************************"
+        }
+      ]
+    }
+  },
+  "type": "theme",
+  "descendants": []
+}

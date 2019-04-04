@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "sources": [
+    "source/class/tokenfield/theme/modern/Theme.js"
+  ],
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "meta",
+    "color",
+    "tokenfield",
+    "theme",
+    "modern",
+    "Color",
+    "decoration",
+    "Decoration",
+    "font",
+    "Font",
+    "appearance",
+    "Appearance",
+    "icon",
+    "Tango"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAAA,KAAGC,SAAH,CAAaC,oBAAb,CAAkCC,aAAlC,EASAH,GAAGI,KAAH,CAASC,MAAT,CAAgB,+BAAhB,EAAiD;AAC/CC,UACA;AACEC,aAAQC,WAAWC,KAAX,CAAiBC,MAAjB,CAAwBC,KADlC;AAEEC,kBAAaJ,WAAWC,KAAX,CAAiBC,MAAjB,CAAwBG,UAFvC;AAGEC,YAAON,WAAWC,KAAX,CAAiBC,MAAjB,CAAwBK,IAHjC;AAIEC,kBAAaR,WAAWC,KAAX,CAAiBC,MAAjB,CAAwBO,UAJvC;AAKEC,YAAOlB,GAAGS,KAAH,CAASS,IAAT,CAAcC;AALvB;AAF+C,GAAjD,C;AATAX,aAAWC,KAAX,CAAiBC,MAAjB,CAAwBN,KAAxB,CAA8BD,aAA9B,GAA8CA,aAA9C",
+  "file": "Theme.js",
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright:\n\n   License:\n\n   Authors:\n\n************************************************************************ */\nqx.Theme.define(\"tokenfield.theme.modern.Theme\", {\n  meta :\n  {\n    color : tokenfield.theme.modern.Color,\n    decoration : tokenfield.theme.modern.Decoration,\n    font : tokenfield.theme.modern.Font,\n    appearance : tokenfield.theme.modern.Appearance,\n    icon : qx.theme.icon.Tango\n  }\n});\n"
+  ]
+}

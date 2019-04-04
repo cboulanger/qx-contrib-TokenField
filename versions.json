@@ -1,0 +1,10 @@
+{
+  "compiler": "0.2.73",
+  "libraries": {
+    "tokenfield": "1.2.2",
+    "qxl.apiviewer": "0.1.12",
+    "qxl.logpane": "0.1.4",
+    "qxl.versionlabel": "0.1.2",
+    "qx": "6.0.0-alpha-20190403-ce5c100"
+  }
+}

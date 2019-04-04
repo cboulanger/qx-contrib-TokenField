@@ -1,0 +1,31 @@
+{
+  "className": "tokenfield.theme.modern.Appearance",
+  "packageName": "tokenfield.theme.modern",
+  "name": "Appearance",
+  "superClass": "qx.theme.modern.Appearance",
+  "interfaces": [],
+  "mixins": [],
+  "functionName": null,
+  "clazz": {
+    "location": {
+      "start": {
+        "line": 14,
+        "column": 0
+      },
+      "end": {
+        "line": 36,
+        "column": 3
+      }
+    },
+    "jsdoc": {
+      "@description": [
+        {
+          "name": "@description",
+          "body": "***********************************************************************\n\nCopyright:\n2010 Guilherme R. Aiolfi\n\nLicense:\nLGPL: http://www.gnu.org/licenses/lgpl.html\nEPL: http://www.eclipse.org/org/documents/epl-v10.php\nSee the LICENSE file in the project's top-level directory for details.\n\nAuthors: Guilherme R. Aiolfi (guilhermeaiolfi)\n\n***********************************************************************"
+        }
+      ]
+    }
+  },
+  "type": "theme",
+  "descendants": []
+}

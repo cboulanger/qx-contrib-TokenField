@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "sources": [
+    "source/class/tokenfield/theme/modern/Color.js"
+  ],
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "extend",
+    "theme",
+    "modern",
+    "Color",
+    "colors",
+    "tokenfield"
+  ],
+  "mappings": ";;;;;;;;;;;;AAAAA,KAAGC,SAAH,CAAaC,oBAAb,CAAkCC,aAAlC,EASAH,GAAGI,KAAH,CAASC,MAAT,CAAgB,+BAAhB,EACA;AACEC,YAASN,GAAGO,KAAH,CAASC,MAAT,CAAgBC,KAD3B;AAEEC,YAAS;AAFX,GADA,C;AATAC,aAAWJ,KAAX,CAAiBC,MAAjB,CAAwBC,KAAxB,CAA8BN,aAA9B,GAA8CA,aAA9C",
+  "file": "Color.js",
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright:\n\n   License:\n\n   Authors:\n\n************************************************************************ */\nqx.Theme.define(\"tokenfield.theme.modern.Color\",\n{\n  extend : qx.theme.modern.Color,\n  colors : {\n\n  }\n});\n"
+  ]
+}

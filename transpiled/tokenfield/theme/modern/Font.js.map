@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "sources": [
+    "source/class/tokenfield/theme/modern/Font.js"
+  ],
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "extend",
+    "theme",
+    "modern",
+    "Font",
+    "fonts",
+    "tokenfield"
+  ],
+  "mappings": ";;;;;;;;;;;;AAAAA,KAAGC,SAAH,CAAaC,oBAAb,CAAkCC,aAAlC,EASAH,GAAGI,KAAH,CAASC,MAAT,CAAgB,8BAAhB,EACA;AACEC,YAASN,GAAGO,KAAH,CAASC,MAAT,CAAgBC,IAD3B;AAEEC,WAAQ;AAFV,GADA,C;AATAC,aAAWJ,KAAX,CAAiBC,MAAjB,CAAwBC,IAAxB,CAA6BN,aAA7B,GAA6CA,aAA7C",
+  "file": "Font.js",
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright:\n\n   License:\n\n   Authors:\n\n************************************************************************ */\nqx.Theme.define(\"tokenfield.theme.modern.Font\",\n{\n  extend : qx.theme.modern.Font,\n  fonts : {\n\n  }\n});\n"
+  ]
+}

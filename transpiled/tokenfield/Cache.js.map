@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "sources": [
+    "source/class/tokenfield/Cache.js"
+  ],
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Class",
+    "define",
+    "extend",
+    "core",
+    "Object",
+    "properties",
+    "maxSize",
+    "init",
+    "event",
+    "construct",
+    "max_size",
+    "setMaxSize",
+    "_data",
+    "_size",
+    "members",
+    "flush",
+    "add",
+    "query",
+    "results",
+    "getMaxSize",
+    "get",
+    "tokenfield",
+    "Cache"
+  ],
+  "mappings": ";;;;;;;;;;;;AAAAA,KAAGC,SAAH,CAAaC,oBAAb,CAAkCC,aAAlC,EAkBAH,GAAGI,KAAH,CAASC,MAAT,CAAgB,kBAAhB,EACA;AACEC,YAASN,GAAGO,IAAH,CAAQC,MADnB;AAEEC,gBAAa;AACXC,eACA;AACEC,cAAO,EADT;AAEEC,eAAQ;AAFV;AAFW,KAFf;AASEC,eAAY,mBAASC,QAAT,EACZ;AACE,UAAIA,QAAJ,EAAc;AACZ,aAAKC,UAAL,CAAgB,EAAhB;AACD;AACD,WAAKC,KAAL,GAAa,EAAb;AAGA,WAAKC,KAAL,GAAa,CAAb;AACD,KAlBH;AAmBEC,aACA;AACE;;;;;AAKAC,aAAQ,iBACR;AACE,aAAKH,KAAL,GAAa,EAAb;AAGA,aAAKC,KAAL,GAAa,CAAb;AACD,OAZH;;AAcE;;;;;;;AAOAG,WAAM,aAASC,KAAT,EAAgBC,OAAhB,EACN;AACE,YAAI,KAAKL,KAAL,GAAa,KAAKM,UAAL,EAAjB,EAAoC;AAClC,eAAKJ,KAAL;AACD;AACD,YAAI,CAAC,KAAKH,KAAL,CAAWK,KAAX,CAAL,EAAwB;AACtB,eAAKJ,KAAL;AACD;AACD,aAAKD,KAAL,CAAWK,KAAX,IAAoBC,OAApB;AACD,OA9BH;;AAgCE;;;;;;AAMAE,WAAM,aAASH,KAAT,EAAgB;AACpB,eAAO,KAAKL,KAAL,CAAWK,KAAX,CAAP;AACD;AAxCH;AApBF,GADA,C;AAlBAI,aAAWC,KAAX,CAAiBvB,aAAjB,GAAiCA,aAAjC",
+  "file": "Cache.js",
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright:\n     2010 Guilherme R. Aiolfi\n\n   License:\n     LGPL: http://www.gnu.org/licenses/lgpl.html\n     EPL: http://www.eclipse.org/org/documents/epl-v10.php\n     See the LICENSE file in the project's top-level directory for details.\n\n   Authors:\n     * Guilherme R. Aiolfi (guilhermeaiolfi)\n\n************************************************************************ */\n\n/**\n * A class to cache ...\n */\nqx.Class.define(\"tokenfield.Cache\",\n{\n  extend : qx.core.Object,\n  properties : {\n    maxSize :\n    {\n      init : 50,\n      event : \"changeMaxSize\"\n    }\n  },\n  construct : function(max_size)\n  {\n    if (max_size) {\n      this.setMaxSize(50);\n    }\n    this._data = {\n\n    };\n    this._size = 0;\n  },\n  members :\n  {\n    /**\n     * TODOC\n     *\n     * @return {void}\n     */\n    flush : function()\n    {\n      this._data = {\n\n      };\n      this._size = 0;\n    },\n\n    /**\n     * TODOC\n     *\n     * @param query {var} TODOC\n     * @param results {var} TODOC\n     * @return {void}\n     */\n    add : function(query, results)\n    {\n      if (this._size > this.getMaxSize()) {\n        this.flush();\n      }\n      if (!this._data[query]) {\n        this._size++;\n      }\n      this._data[query] = results;\n    },\n\n    /**\n     * TODOC\n     *\n     * @param query {var} TODOC\n     * @return {var} TODOC\n     */\n    get : function(query) {\n      return this._data[query];\n    }\n  }\n});\n"
+  ]
+}

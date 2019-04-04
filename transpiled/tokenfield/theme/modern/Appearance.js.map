@@ -1,0 +1,39 @@
+{
+  "version": 3,
+  "sources": [
+    "source/class/tokenfield/theme/modern/Appearance.js"
+  ],
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "extend",
+    "theme",
+    "modern",
+    "Appearance",
+    "appearances",
+    "include",
+    "style",
+    "states",
+    "styles",
+    "decorator",
+    "textColor",
+    "hovered",
+    "backgroundColor",
+    "head",
+    "undefined",
+    "height",
+    "padding",
+    "margin",
+    "icon",
+    "tokenfield"
+  ],
+  "mappings": ";;;;;;;;;;;;AAAAA,KAAGC,SAAH,CAAaC,oBAAb,CAAkCC,aAAlC,EAaAH,GAAGI,KAAH,CAASC,MAAT,CAAgB,oCAAhB,EACA;AACEC,YAASN,GAAGO,KAAH,CAASC,MAAT,CAAgBC,UAD3B;AAEEC,iBACA;AACE,eAAU,UADZ;AAEE,mBACA;AACEC,iBAAU,UADZ;AAEEC,eAAQ,eAASC,MAAT,EAAiBC,MAAjB,EAAyB;AAC/B,iBAAO;AACLC,uBAAY,OADP;AAELC,uBAAYH,OAAOI,OAAP,GAAiB,SAAjB,GAA6B,SAFpC;AAGLC,6BAAiBL,OAAOM,IAAP,GAAc,SAAd,GAA0BC,SAHtC;AAILC,oBAAS,EAJJ;AAKLC,qBAAU,CAAC,CAAD,EAAI,CAAJ,EAAO,CAAP,EAAU,CAAV,CALL;AAMLC,oBAAS,CANJ;AAOLC,kBAAOX,OAAOI,OAAP,GAAiB,oCAAjB,GAAwD;AAP1D,WAAP;AASD;AAZH;AAHF;AAHF,GADA,C;AAbAQ,aAAWlB,KAAX,CAAiBC,MAAjB,CAAwBC,UAAxB,CAAmCN,aAAnC,GAAmDA,aAAnD",
+  "file": "Appearance.js",
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright:\n     2010 Guilherme R. Aiolfi\n\n   License:\n     LGPL: http://www.gnu.org/licenses/lgpl.html\n     EPL: http://www.eclipse.org/org/documents/epl-v10.php\n     See the LICENSE file in the project's top-level directory for details.\n\n   Authors: Guilherme R. Aiolfi (guilhermeaiolfi)\n\n************************************************************************ */\nqx.Theme.define(\"tokenfield.theme.modern.Appearance\",\n{\n  extend : qx.theme.modern.Appearance,\n  appearances :\n  {\n    'token' : 'combobox',\n    'tokenitem' :\n    {\n      include : 'listitem',\n      style : function(states, styles) {\n        return {\n          decorator : 'group',\n          textColor : states.hovered ? '#314a6e' : '#000000',\n          backgroundColor: states.head ? '#4d94ff' : undefined,\n          height : 18,\n          padding : [1, 6, 1, 6],\n          margin : 1,\n          icon : states.hovered ? \"decoration/window/close-active.png\" : \"decoration/window/close-inactive.png\"\n        };\n      }\n    }\n  }\n});\n"
+  ]
+}

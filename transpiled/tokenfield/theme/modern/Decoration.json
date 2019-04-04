@@ -1,0 +1,31 @@
+{
+  "className": "tokenfield.theme.modern.Decoration",
+  "packageName": "tokenfield.theme.modern",
+  "name": "Decoration",
+  "superClass": "qx.theme.modern.Decoration",
+  "interfaces": [],
+  "mixins": [],
+  "functionName": null,
+  "clazz": {
+    "location": {
+      "start": {
+        "line": 10,
+        "column": 0
+      },
+      "end": {
+        "line": 16,
+        "column": 3
+      }
+    },
+    "jsdoc": {
+      "@description": [
+        {
+          "name": "@description",
+          "body": "***********************************************************************\n\nCopyright:\n\nLicense:\n\nAuthors:\n\n***********************************************************************"
+        }
+      ]
+    }
+  },
+  "type": "theme",
+  "descendants": []
+}

@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "sources": [
+    "source/class/tokenfield/theme/modern/Decoration.js"
+  ],
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "extend",
+    "theme",
+    "modern",
+    "Decoration",
+    "decorations",
+    "tokenfield"
+  ],
+  "mappings": ";;;;;;;;;;;;AAAAA,KAAGC,SAAH,CAAaC,oBAAb,CAAkCC,aAAlC,EASAH,GAAGI,KAAH,CAASC,MAAT,CAAgB,oCAAhB,EACA;AACEC,YAASN,GAAGO,KAAH,CAASC,MAAT,CAAgBC,UAD3B;AAEEC,iBAAc;AAFhB,GADA,C;AATAC,aAAWJ,KAAX,CAAiBC,MAAjB,CAAwBC,UAAxB,CAAmCN,aAAnC,GAAmDA,aAAnD",
+  "file": "Decoration.js",
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright:\n\n   License:\n\n   Authors:\n\n************************************************************************ */\nqx.Theme.define(\"tokenfield.theme.modern.Decoration\",\n{\n  extend : qx.theme.modern.Decoration,\n  decorations : {\n\n  }\n});\n"
+  ]
+}
