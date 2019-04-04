@@ -15,12 +15,13 @@ http://cboulanger.github.io/qx-contrib-TokenField/api/#tokenfield.Token
 http://cboulanger.github.io/qx-contrib-TokenField/
 
 ## Run the demo locally
-- `npm install`
-- `pushd node_modules/qxcompiler && npm link && popd`
-- `qx serve`
+```bash
+npm install -g qxcompiler
+qx serve
+```
 - Open your browser at localhost:8080
 
 ## Install in your qooxdoo app
-- `qx contrib update`
-- `qx contrib list`
-- `qx contrib install cboulanger/qx-contrib-TokenField`
+```bash
+qx contrib install cboulanger/qx-contrib-TokenField
+```

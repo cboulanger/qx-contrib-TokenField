@@ -6,15 +6,11 @@
   "targets": [
     {
       "type": "source",
-      "outputPath": "source-compiled"
-    },
-    {
-      "type": "hybrid",
-      "outputPath": "hybrid-compiled"
+      "outputPath": "compiled/source"
     },
     {
       "type": "build",
-      "outputPath": "build-compiled"
+      "outputPath": "compiled/build"
     }
   ],
   "defaultTarget": "source",
@@ -27,11 +23,6 @@
       "name": "tokenfield.demo",
       "title" : "Tokenfield Demo"
     }
-  ],
-
-  "libraries": [
-    "node_modules/qooxdoo-sdk/framework",
-    "."
   ],
 
   "eslintConfig": {

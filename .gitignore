@@ -5,7 +5,7 @@ build/
 source/script
 
 # qooxdoo-compiler
-*-compiled/
+compiled/
 
 # Mac
 .DS_Store
@@ -13,3 +13,4 @@ source/script
 # npm
 node_modules/
 package-lock.json
+.idea
