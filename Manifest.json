@@ -22,8 +22,7 @@
         "name": "Tobias Bräutigam (peuter)"
       }
     ],
-    "version": "1.2.1",
-    "qooxdoo-range": "5.x || ^6.0.0-alpha"
+    "version": "1.2.2"
   },
   "provides": {
     "namespace": "tokenfield",
@@ -32,5 +31,8 @@
     "resource": "source/resource",
     "translation": "source/translation",
     "type": "contribution"
+  },
+  "requires": {
+    "qooxdoo-sdk": "5.x || ^6.0.0-alpha"
   }
 }
