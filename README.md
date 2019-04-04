@@ -12,7 +12,7 @@ see [code of Demo application](source/class/tokenfield/demo/Application.js)
 http://cboulanger.github.io/qx-contrib-TokenField/apiviewer/#tokenfield.Token
 
 ## Online demo
-http://cboulanger.github.io/qx-contrib-TokenField/
+http://cboulanger.github.io/qx-contrib-TokenField/tokenfield.demo
 
 ## Run the demo locally
 ```bash
