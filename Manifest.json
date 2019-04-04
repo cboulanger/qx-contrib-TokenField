@@ -33,6 +33,8 @@
     "type": "contribution"
   },
   "requires": {
-    "qooxdoo-sdk": "5.x || ^6.0.0-alpha"
+    "qooxdoo-sdk": "5.x || ^6.0.0-alpha",
+    "qooxdoo/qxl.apiviewer": "^0.1.12",
+    "qooxdoo/qxl.versionlabel": "^0.1.2"
   }
 }

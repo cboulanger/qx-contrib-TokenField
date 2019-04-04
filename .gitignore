@@ -6,6 +6,7 @@ source/script
 
 # qooxdoo-compiler
 compiled/
+contrib/
 
 # Mac
 .DS_Store

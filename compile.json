@@ -1,8 +1,7 @@
 {
   "environment": {
-    "qx.icontheme" : "Tango"
+    "qx.icontheme": "Tango"
   },
-
   "targets": [
     {
       "type": "source",
@@ -14,17 +13,37 @@
     }
   ],
   "defaultTarget": "source",
-  "locales": ["en","de"],
-
+  "locales": [
+    "en",
+    "de"
+  ],
   "applications": [
     {
       "class": "tokenfield.demo.Application",
       "theme": "tokenfield.theme.modern.Theme",
       "name": "tokenfield.demo",
-      "title" : "Tokenfield Demo"
+      "title": "Tokenfield Demo"
+    },
+    {
+      "class": "qxl.apiviewer.Application",
+      "theme": "qxl.apiviewer.Theme",
+      "name": "apiviewer",
+      "title": "Qooxdoo API Viewer",
+      "environment": {
+        "excludeFromAPIViewer": [
+          "qxl.apiviewer.*"
+        ]
+      },
+      "include": [
+        "qx.*"
+      ],
+      "exclude": [
+        "qx.test.*",
+        "qx.module.Blocker",
+        "qx.module.Placement"
+      ]
     }
   ],
-
   "eslintConfig": {
     "parserOptions": {
       "ecmaVersion": 5
