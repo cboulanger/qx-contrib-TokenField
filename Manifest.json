@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "TokenField",
-    "category": [
+    "keywords": [
       "form",
       "autocomplete"
     ],
@@ -9,19 +9,7 @@
     "description": "A widget implementing the token field concept",
     "homepage": "https://github.com/cboulanger/qx-contrib-TokenField",
     "license": "LGPL/EPL",
-    "authors": [
-      {
-        "name": "Guilherme R. Aiolfi (guilhermeaiolfi)",
-        "email": "gradinf AT gmail DOT com"
-      },
-      {
-        "name": "Christian Boulanger (cboulanger)",
-        "email": "info AT bibliograph DOT org"
-      },
-      {
-        "name": "Tobias Bräutigam (peuter)"
-      }
-    ],
+    "authors": [],
     "version": "1.2.2"
   },
   "provides": {
@@ -29,12 +17,11 @@
     "encoding": "utf-8",
     "class": "source/class",
     "resource": "source/resource",
-    "translation": "source/translation",
-    "type": "contribution"
+    "translation": "source/translation"
   },
   "requires": {
-    "qooxdoo-sdk": "5.x || ^6.0.0-alpha",
-    "qooxdoo/qxl.apiviewer": "^0.1.12",
-    "qooxdoo/qxl.versionlabel": "^0.1.2"
-  }
+    "@qooxdoo/compiler": "^1.0.0-beta",
+    "@qooxdoo/framework": "^6.0.0-beta"
+  },
+  "$schema": "https://raw.githubusercontent.com/qooxdoo/qooxdoo-compiler/master/source/resource/qx/tool/schema/Manifest-1-0-0.json"
 }
